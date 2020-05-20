@@ -688,40 +688,18 @@ figure {
     position: relative;
 }
 
-.gtco-products .gtco-item .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-
 .gtco-products .gtco-item .overlay i {
     position: absolute;
     top: 10px;
     right: 10px;
     font-size: 16px;
-    z-index: 14;
     color: #fff;
 }
 
 .gtco-products .gtco-item .overlay .copy {
-    bottom: -20px;
     position: absolute;
     left: 0;
     padding: 20px;
-    z-index: 12;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
 }
 
 .gtco-products .gtco-item .overlay .copy h3 {
@@ -735,22 +713,18 @@ figure {
 .gtco-products .gtco-item .overlay .copy p {
     color: rgba(255, 255, 255, 0.8);
     font-size: 14px;
-}
-
-.gtco-products .gtco-item .overlay .copy p:last-child {
     margin-bottom: 0;
 }
 
+
+
 .gtco-products .gtco-item .overlay:before {
-    z-index: 7;
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .8;
-    background: #3dcdbc;
     background: -moz-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, #3dcdbc), color-stop(100%, #33a1bd));
     background: -webkit-linear-gradient(left, #3dcdbc 0%, #33a1bd 100%);
@@ -765,31 +739,7 @@ figure {
     visibility: visible;
 }
 
-.gtco-products .gtco-item:hover .overlay .copy {
-    bottom: 0;
-    opacity: 1;
-    visibility: visible;
-}
 
-.gtco-testimonial .gtco-testimony {
-    float: left;
-    width: 100%;
-    margin-bottom: 30px;
-}
-
-.gtco-testimonial .gtco-left>div {
-    display: table-cell;
-    float: left;
-    width: 80px;
-}
-
-.gtco-testimonial .gtco-left>div img {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    max-width: 100% !important;
-}
 
 .gtco-testimonial .gtco-left>blockquote {
     padding-left: 20px;
@@ -862,16 +812,9 @@ figure {
     margin: 0;
 }
 
-#gtco-footer .gtco-footer-link .gtco-list-link li {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
 
-#gtco-footer .gtco-footer-link .gtco-list-link li a {
-    text-transform: uppercase;
-    font-size: 13px !important;
-}
+
+
 
 #gtco-footer .gtco-footer-subscribe {
     padding-left: 30px;
@@ -976,16 +919,8 @@ figure {
     *display: inline;
 }
 
-.gtco-staff .fh5co-social li a,
-.gtco-item .fh5co-social li a {
-    font-size: 20px;
-    color: #17b794;
-}
 
-.gtco-staff .fh5co-social li a:hover,
-.gtco-item .fh5co-social li a:hover {
-    color: #000;
-}
+
 
 .gtco-social-icons {
     margin: 0;
@@ -1002,15 +937,7 @@ figure {
     *display: inline;
 }
 
-.gtco-social-icons li a {
-    display: -moz-inline-stack;
-    display: inline-block;
-    zoom: 1;
-    *display: inline;
-    color: #17B794;
-    padding-left: 10px;
-    padding-right: 10px;
-}
+
 
 .gtco-social-icons li a i {
     font-size: 20px;
@@ -1123,9 +1050,7 @@ form label {
     margin-bottom: 0 !important;
 }
 
-#gtco-header .copy {
-    margin-top: 0em;
-}
+
 
 #gtco-header .btn {
     color: #34a7bd !important;
